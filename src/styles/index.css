@@ -11,28 +11,22 @@
 }
 
 nav {
+  margin-top: .5em;
+  margin-bottom: .1em;
   display: flex;
   justify-content: center;
 }
-main { 
-  display: flex;
-}
+
 a {
-  background-color: #d8f3dc;
-  border: 2px solid #1b4332;
-  border-radius: 1em;
-  padding: .3em .6em;
-  margin-right: 1.7em;
-  font-family: "Yeseva One", serif;
-  font-weight: 400;
+  font-family: "Jost", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
   font-style: normal;
   font-size: .4em;
-  color: #023e8a;
-  text-decoration: inherit;
 }
-a:hover {
-  color: #1B263B;
-  background-color: #C9E4CA;
+
+main { 
+  display: flex;
 }
 
 body {
@@ -85,7 +79,7 @@ button:focus-visible {
   }
 }
 
-@media only screen and (min-width: 1280px) {
+@media only screen and (min-width: 389px) {
   body {
     /* background-color: #cad2c5; */
     background-image: radial-gradient(#f6fff8, #95d5b2 10%, #95d5b2 20%, #95d5b2 30%, #f6fff8);

@@ -1,0 +1,128 @@
+.navLink {
+    background-color: #d8f3dc;
+    border: 2px solid #1b4332;
+    border-radius: 1em;
+    padding: .3em .6em;
+    margin-right: 1.7em;
+    margin-bottom: 1em;
+    font-family: "Yeseva One", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: .4em;
+    color: #023e8a;
+    text-decoration: inherit;
+}
+.navLink:hover {
+    color: #1B263B;
+    background-color: #C9E4CA;
+}
+
+main {
+    margin-top: .2em;
+}
+
+footer {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.footerLink {
+    margin-top: 1em;
+    margin-bottom: 2.5em;
+    max-width: 10em;
+    border: none;
+    font-size: .3em;
+}
+
+@media only screen and (max-width: 336px) {
+    .footerLink {
+        margin-bottom: 2.8em;
+    }
+}
+
+@media only screen and (min-width: 337px) and (max-width: 500px) {
+    .footerLink {
+        margin-bottom: 2.5em;
+    }
+} 
+
+/* iPhone 11 Pro Max iOS 14.6 */
+@media only screen and (max-width: 415px) {
+    h1 {
+        font-size: .9em;
+    }
+    /* The nav contains the navigation button */
+    nav {
+        font-size: .7em;
+        margin-bottom: .8em;
+    }
+}
+
+@media only screen and (min-width: 580px) {
+    .footerLink {
+        font-size: .4em;
+    }
+}
+
+/* The iPhone 12/13 Pro Max iOS 14.6 Has a View Port Width of 428px in Portrait Mode */
+@media only screen and (min-width: 416px) and (max-width: 639px) {
+    h1 {
+        font-size: 1em;
+    }
+    nav {
+        font-size: .9em;
+        margin-bottom: .9em;
+    }
+}
+
+@media only screen and (min-width: 640px) and (max-width: 767px) {
+    h1 {
+        font-size: 1.2em;
+    }
+    /* The nav contains the navigation button */
+    nav {
+        font-size: .8em;
+        margin-bottom: 1em;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+    h1 {
+        font-size: 1.2em;
+    }
+    /* The nav contains the navigation button */
+    nav {
+        font-size: .9em;
+        margin-bottom: 1.1em;
+    }
+}
+
+@media only screen and (min-width: 1024px) and (max-width: 1279px) {
+    h1 {
+        font-size: 1.3em;
+    }
+    /* The nav contains the navigation button */
+    nav {
+        font-size: 1em;
+        margin-bottom: 1.3em;
+    }
+    
+}
+
+@media only screen and (min-width: 1024px) and (max-width: 1059px) { 
+    .footerLink {
+        margin-bottom: 5em;
+    }
+}
+
+@media only screen and (min-width: 1059px) and (max-width: 1280px) { 
+    .footerLink {
+        margin-bottom: 4em;
+    }
+}
+
+@media only screen and (min-width: 1280px) {
+    .footerLink {
+        margin-bottom: 3em;
+    }
+}
