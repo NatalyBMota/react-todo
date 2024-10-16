@@ -8,6 +8,10 @@
     background-color: #f6fff8;
 }
 
+.inputField:focus {
+    background-color: grey;
+}
+
 /* Galaxy S10/S10+ Android 11 in Portrait View is 360px wide. Yet, the browser's testing tools won't display the below rule for this partifular phone's preview, unless the max-width is set to 1 pixel wider (to 361px). */
 @media only screen and (max-width: 361px) {
     .inputField {
@@ -18,8 +22,7 @@
     }
 }
 
-/* The iPhone 11 Pro Max iOS 14.6 in Portrait View is 415px wide. */
-@media only screen and (min-width: 362px) and (max-width: 415px) {
+@media only screen and (min-width: 362px) and (max-width: 388px) {
     .inputField {
         font-size: .4em;
         height: .8em;
@@ -28,8 +31,7 @@
     }
 }
 
-/* The iPhone 12/13 Pro Max iOS 14.6 Has a View Port Width of 428px in Portrait Mode */
-@media only screen and (min-width: 416px) and (max-width: 428px) {
+@media only screen and (min-width: 389px) and (max-width: 428px) {
     .inputField {
         font-size: .3em;
         height: .7em;
@@ -43,6 +45,15 @@
         font-size: .4em;
         height: 1em;
         width: 9em;
+        border-radius: .4em;
+    }
+}
+
+@media only screen and (min-width: 580px) and (max-width: 599px) {
+    .inputField {
+        font-size: .4em;
+        height: .9em;
+        width: 10em;
         border-radius: .4em;
     }
 }

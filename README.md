@@ -9,6 +9,16 @@ Currently, two official plugins are available:
 - [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
 - [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
+
+- You can remove cached packages by executing 'dnf clean package- The .env.local file should contain the following data:
+VITE_AIRTABLE_API_TOKEN=
+
+VITE_AIRTABLE_BASE_ID=
+
+VITE_TABLE_NAME=
+
+- None of the variables in the .env.local file should end with a semicolens.
+
 - An alternate to the following line of code:
   const newTodoTitle = todoInput.value;
 - This is it:

@@ -1,0 +1,24 @@
+.mainForLandingPg {
+    display: flex;
+    flex-direction: column;
+    padding-left: .2em;
+    align-items: center;
+    
+}
+.h1ForLandingPg {
+    display: inline-flex;
+    font-size: 1em;
+}
+
+@media only screen and (min-width: 389px) and (max-width: 1044px) {
+    .h1ForLandingPg {
+        width: fit-content;
+        text-align: center;
+    }
+}
+
+@media only screen and (min-width: 1280px) {
+    .h1ForLandingPg {
+        font-size: 1em;
+    }
+}

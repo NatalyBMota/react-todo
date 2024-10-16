@@ -1,60 +1,14 @@
-
-
-/* iPhone 11 Pro Max iOS 14.6 */
-@media only screen and (max-width: 415px) {
-    h1 {
-        font-size: .9em;
-    }
-    /* The nav contains the navigation button */
-    nav {
-        font-size: .7em;
-        margin-bottom: .8em;
-    }
+.asideWithToggleSortButton {
+    width: 89%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
-/* The iPhone 12/13 Pro Max iOS 14.6 Has a View Port Width of 428px in Portrait Mode */
-@media only screen and (min-width: 416px) and (max-width: 639px) {
-    h1 {
-        font-size: 1em;
-    }
-    nav {
-        font-size: .9em;
-        margin-bottom: .9em;
-    }
-}
-
-@media only screen and (min-width: 640px) and (max-width: 767px) {
-    h1 {
-        font-size: 1.2em;
-    }
-    /* The nav contains the navigation button */
-    nav {
-        font-size: .8em;
-        margin-bottom: 1em;
-    }
-}
-
-@media only screen and (min-width: 768px) and (max-width: 1023px) {
-    h1 {
-        font-size: 1.2em;
-    }
-    /* The nav contains the navigation button */
-    nav {
-        font-size: .9em;
-        margin-bottom: 1.1em;
-    }
-}
-
-@media only screen and (min-width: 1024px) and (max-width: 1279px) {
-    h1 {
-        font-size: 1.3em;
-    }
-    /* The nav contains the navigation button */
-    nav {
-        font-size: 1em;
-        margin-bottom: 1.3em;
-    }
-    
+.toggleSortOrderButton {
+    max-width: fit-content;
+    padding: .6em .9em;
+    border: 1px solid white;
 }
 
 @media only screen and (max-width: 1279px) {
@@ -63,8 +17,114 @@
     }
 }
 
-@media only screen and (min-width: 1280px) {
-    h1 {
+@media only screen and (max-width: 415px) {
+    .toggleSortOrderButton {
+        font-size: .2rem;
+    }
+}
+
+@media only screen and (min-width: 389px) {
+    main {
+        background-color: #f0fff1;
+        border: 1px solid green;
+        border-radius: .5em;
+    }
+}
+
+@media only screen and (min-width: 389px) and (max-width: 428px) {
+    main {
+        padding: .5em .1em .9em .1em;
+    }
+}
+
+/* @media only screen and (min-width: 418px) {
+    main {
+        background-color: #f0fff1;
+        border: 1px solid green;
+        border-radius: .5em;
+    }
+} */
+
+@media only screen and (min-width: 429px) and (max-width: 579px) {
+    main {
+        padding: .5em .6em .9em .4em;
+    }
+}
+
+@media only screen and (min-width: 580px) and (max-width: 599px) {
+    main {
+        padding: .5em .6em .9em .9em;
+    }
+}
+
+@media only screen and (min-width: 600px) and (max-width: 639px) {
+    main {
+        padding: .6em 1em .9em .9em;
+    }
+}
+
+@media only screen and (min-width: 640px) and (max-width: 719px) {
+    main {
+        padding: .6em 1em .8em 1em;
+    }
+}
+
+@media only screen and (min-width: 720px) and (max-width: 769px) {
+    main {
+        padding: .7em 1.1em .7em 1.1em;
+    }
+}
+
+@media only screen and (min-width: 770px) and (max-width: 799px) {
+    main {
+        padding: .5em 1em .6em 1em;
+    }
+}
+
+@media only screen and (min-width: 800px) and (max-width: 829px) {
+    main {
+        padding: .5em 1.1em .7em 1.1em;
+    }
+}
+
+@media only screen and (min-width: 830px) and (max-width: 899px) {
+    main {
+        padding: .5em 1.2em .8em 1.2em;
+    }
+}
+
+@media only screen and (min-width: 900px) and (max-width: 929px) {
+    main {
+        padding: .5em 1.3em .8em 1.3em;
+    }
+}
+
+@media only screen and (min-width: 930px) and (max-width: 959px) {
+    main {
+        padding: .6em 1.4em .9em 1.4em;
+    }
+}
+
+@media only screen and (min-width: 960px) and (max-width: 989px) {
+    main {
+        padding: .7em 1.6em .9em 1.6em;
+    }
+}
+
+@media only screen and (min-width: 990px) and (max-width: 1026px) {
+    main {
+        padding: .7em 1.8em .9em 1.8em;
+    }
+}
+
+@media only screen and (min-width: 1027px) and (max-width: 1144px) {
+    main {
+        padding: .7em 2em 1em 2em;
+    }
+}
+
+@media only screen and (min-width: 1145px) {
+    .nameOfTableHeader {
         font-size: 1.5em;
     }
     .checkListImg {
@@ -76,15 +136,31 @@
         margin-bottom: 1.6em;
     }
     main {
-        background-color: #f0fff1;
         padding: .5em 0 .3em 2em;
-        border: 1px solid green;
-        border-radius: .5em;
+    }
+}
+
+@media only screen and (min-width: 1145px) {
+    .asideWithToggleSortButton {
+        align-items: flex-end;
+    }
+}
+
+@media only screen and (min-width: 1145px) and (max-width: 1279px) {
+    .asideWithToggleSortButton {
+        margin-left: 1.6em;
+    }
+}
+
+@media only screen and (min-width: 1280px) {
+    main {
+        margin-left: 10%;
+        margin-right: 10%;
     }
 }
 
 @media only screen and (min-width: 1536px) {
-    h1 {
+    .nameOfTableHeader {
         font-size: 1.6em;
     }
     /* The nav contains the navigation button */
